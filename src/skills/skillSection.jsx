@@ -1,4 +1,5 @@
 import React from "react";
+import "./skillSection.scss";
 
 const SkillSection = (props) => {
   return (
