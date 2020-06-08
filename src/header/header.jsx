@@ -1,16 +1,29 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import Projects from "../projects/projects";
+import Skills from "../skills/skills";
+import ContactForm from "../contactForm/contactForm";
 
 const Header = () => {
   return (
     <>
-      <div className="title">
-        <h1>Kim Duclos</h1>
-        <h4>Web Development & Design</h4>
-      </div>
-      <div className="menu">
-        <h4>Projects Skills Contact</h4>
-      </div>
-      <hr></hr>
+      <h1>Kim Duclos</h1>
+      <h2>Web Development & Design</h2>
+      <Router>
+        <nav className="navbar">
+          <Link to="/">Projects</Link>
+          <Link to="/skills">Skills</Link>
+          <Link to="/contact">Contact</Link>
+           <hr />
+        </nav>
+        <div className="Header">
+          <Switch>
+            <Route exact path="/" component={Projects} />
+            <Route path="/skills" component={Skills} />
+            <Route path="/contact" component={ContactForm} />
+          </Switch>
+        </div>
+      </Router>
     </>
   );
 };
