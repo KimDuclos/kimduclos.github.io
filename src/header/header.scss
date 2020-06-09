@@ -3,11 +3,12 @@
 .headerBlock {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   border-bottom: 1px solid #e0e0e0;
   height: 10em;
   .titleBlock {
     width: 30em;
-    margin: 2em 0 0 35em;
+    margin: 2em 0 0 0;
     .name {
       font-size: 4em;
       font-family: "Roboto", sans-serif;
@@ -38,6 +39,5 @@
 }
 
 .projectSection {
-  width: 60%;
-  margin: 0 auto 0 auto;
+  margin: 3em auto 0 auto;
 }
