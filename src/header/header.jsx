@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import "./header.scss";
 import Projects from "../projects/projects";
 import Skills from "../skills/skills";
-import ContactForm from "../contactForm/contactForm";
+import Contact from "../contact/contact";
 
 const Header = () => {
   return (
@@ -25,7 +25,7 @@ const Header = () => {
             <Switch>
               <Route exact path="/" component={Projects} />
               <Route path="/skills" component={Skills} />
-              <Route path="/contact" component={ContactForm} />
+              <Route path="/contact" component={Contact} />
             </Switch>
           </div>
     </Router>

@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.bottomSection {
+  width: 50%;
+}
+
+.form-group {
+  font-family: "Roboto", sans-serif;
+}
+
+.form-control {
+  font-family: "Roboto", sans-serif;
+}
+
+#name {
+  width: 100%;
+  border: solid 1px gray;
+  margin: 0 0 1em 0;
+}
+
+#email {
+  width: 100%;
+  border: solid 1px gray;
+  margin: 0 0 1em 0;
+}
+
+#message {
+  width: 100%;
+  border: solid 1px gray;
+  margin: 0 0 1em 0;
+}
+
+.btn {
+  width: 101.5%;
+  border: solid 1px gray;
+  background-color: white;
+  font-family: "Roboto", "sans-serif";
+  color: #98C263;
+  font-size: 2em;
+}

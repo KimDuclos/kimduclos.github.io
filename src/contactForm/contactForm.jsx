@@ -1,9 +1,9 @@
 import React from "react";
 import axios from "axios";
-import About from "../About/about.jsx";
-// import "./contactForm.scss";
+// import About from "../About/about.jsx";
+import "./contactForm.scss";
 
-class contactForm extends React.Component {
+class ContactForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -43,15 +43,15 @@ class contactForm extends React.Component {
   render() {
     return (
       <div className="bottomSection" id="contact">
-        <About />
+        {/* <About /> */}
         <div className="contactForm" style={{ width: "50%" }}>
-          <h1>Say Hello...</h1>
+          {/* <h1>Say Hello...</h1> */}
           <form
             id="contact-form"
             onSubmit={this.handleSubmit.bind(this)}
             method="POST"
           >
-            <div className="form-group">
+            <div className="form-group name">
               {/* <label htmlFor="name">Name</label> */}
               <input
                 type="text"
@@ -110,4 +110,4 @@ class contactForm extends React.Component {
   }
 }
 
-export default contactForm;
+export default ContactForm;
