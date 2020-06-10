@@ -4,6 +4,7 @@ import "./header.scss";
 import Projects from "../projects/projects";
 import Skills from "../skills/skills";
 import ContactForm from "../contactForm/contactForm.jsx";
+import Footer from "../footer/footer.jsx";
 
 const Header = () => {
   return (
@@ -28,6 +29,7 @@ const Header = () => {
               <Route path="/contactForm" component={ContactForm} />
             </Switch>
           </div>
+          <Footer />
     </Router>
   );
 };
