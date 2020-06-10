@@ -2,12 +2,23 @@
   display: flex;
   flex-direction: column;
   width: 40%;
+  .aboutSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    img {
+      width: 50%;
+      margin: auto;
+    }
+  }
   p {
       width: 70%;
+      text-align: center;
+      margin: 1em auto 0 auto;
   }
   :link {
     text-decoration: none;
-    color: #E0E0E0;
+    color: #4d4a4a;
     font-weight: bold;
     :visited {
       color: #4d4a4a;
