@@ -1,9 +1,16 @@
 .footer {
     display: flex;
     justify-content: center;
-    margin: 8em 0 0 0;
-    padding: 1em 0 0 0;
     font-size: .75em;
     color: #403E3E;
     border-top: solid 1px #E0E0E0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    :link {
+        text-decoration: none;
+        color: rgb(78, 74, 74);
+        font-weight: bold;
+    }
 }
