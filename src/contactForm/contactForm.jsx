@@ -46,7 +46,7 @@ class ContactForm extends React.Component {
         <About />
         <div className="bottomSection" id="contact">
           <div className="contactForm">
-            {/* <h1>Say Hello...</h1> */}
+            <h1>Contact me:</h1>
             <form
               id="contact-form"
               onSubmit={this.handleSubmit.bind(this)}

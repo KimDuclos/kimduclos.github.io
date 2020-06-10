@@ -1,14 +1,14 @@
 .allAboutInfo {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 70%;
   .aboutSection {
     display: flex;
     flex-direction: column;
     justify-content: center;
     img {
-      width: 50%;
-      margin: auto;
+      width: 70%;
+      margin: .75em auto 0 auto;
     }
   }
   p {
