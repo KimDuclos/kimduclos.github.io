@@ -1,6 +1,7 @@
 import React from "react";
 import "./skills.scss";
 import SkillSection from "./skillSection.jsx";
+import Footer from "../footer/footer.jsx";
 
 const SkillsList = (props) => {
   return (
@@ -63,6 +64,7 @@ const SkillsList = (props) => {
           </ul>
         />
       </div>
+      <Footer />
     </>
   );
 };

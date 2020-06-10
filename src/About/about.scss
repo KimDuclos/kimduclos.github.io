@@ -5,4 +5,12 @@
   p {
       width: 70%;
   }
+  :link {
+    text-decoration: none;
+    color: #E0E0E0;
+    font-weight: bold;
+    :visited {
+      color: #4d4a4a;
+    }
+  }
 }
