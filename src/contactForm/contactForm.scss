@@ -1,11 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+.allContactInfo {
+  width: 55%;
+  margin: 5em auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 .bottomSection {
-  width: 50%;
+  width: 40%;
 }
 
 .form-group {
   font-family: "Roboto", sans-serif;
+  .message {
+    height: 60%;
+  }
 }
 
 .form-control {

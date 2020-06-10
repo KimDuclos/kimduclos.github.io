@@ -1,3 +1,8 @@
-.aboutSection {
-    width: 45%;
+.allAboutInfo {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  p {
+      width: 70%;
+  }
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import axios from "axios";
-// import About from "../About/about.jsx";
+import About from "../About/about.jsx";
 import "./contactForm.scss";
 
 class ContactForm extends React.Component {
@@ -42,56 +42,58 @@ class ContactForm extends React.Component {
 
   render() {
     return (
-      <div className="bottomSection" id="contact">
-        {/* <About /> */}
-        <div className="contactForm" style={{ width: "50%" }}>
-          {/* <h1>Say Hello...</h1> */}
-          <form
-            id="contact-form"
-            onSubmit={this.handleSubmit.bind(this)}
-            method="POST"
-          >
-            <div className="form-group name">
-              {/* <label htmlFor="name">Name</label> */}
-              <input
-                type="text"
-                required
-                className="form-control"
-                id="name"
-                value={this.state.name}
-                onChange={this.onNameChange.bind(this)}
-                placeholder="Name"
-              />
-            </div>
-            <div className="form-group">
-              {/* <label htmlFor="exampleInputEmail1">Email address</label> */}
-              <input
-                type="email"
-                required
-                className="form-control"
-                id="email"
-                aria-describedby="emailHelp"
-                value={this.state.email}
-                onChange={this.onEmailChange.bind(this)}
-                placeholder="Email"
-              />
-            </div>
-            <div className="form-group">
-              {/* <label htmlFor="message">Message</label> */}
-              <textarea
-                className="form-control"
-                rows="5"
-                id="message"
-                required
-                value={this.state.message}
-                onChange={this.onMessageChange.bind(this)}
-                placeholder="Message"
-              />
-            </div>
-            <button type="submit" className="btn btn-primary">
-              Submit
-            </button>
-          </form>
+      <div className="allContactInfo">
+        <About />
+        <div className="bottomSection" id="contact">
+          <div className="contactForm">
+            {/* <h1>Say Hello...</h1> */}
+            <form
+              id="contact-form"
+              onSubmit={this.handleSubmit.bind(this)}
+              method="POST"
+            >
+              <div className="form-group name">
+                {/* <label htmlFor="name">Name</label> */}
+                <input
+                  type="text"
+                  required
+                  className="form-control"
+                  id="name"
+                  value={this.state.name}
+                  onChange={this.onNameChange.bind(this)}
+                  placeholder="Name"
+                />
+              </div>
+              <div className="form-group email">
+                {/* <label htmlFor="exampleInputEmail1">Email address</label> */}
+                <input
+                  type="email"
+                  required
+                  className="form-control"
+                  id="email"
+                  aria-describedby="emailHelp"
+                  value={this.state.email}
+                  onChange={this.onEmailChange.bind(this)}
+                  placeholder="Email"
+                />
+              </div>
+              <div className="form-group message">
+                {/* <label htmlFor="message">Message</label> */}
+                <textarea
+                  className="form-control"
+                  rows="5"
+                  id="message"
+                  required
+                  value={this.state.message}
+                  onChange={this.onMessageChange.bind(this)}
+                  placeholder="Message"
+                />
+              </div>
+              <button type="submit" className="btn btn-primary">
+                Submit
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     );
