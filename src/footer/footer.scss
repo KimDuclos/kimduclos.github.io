@@ -1,3 +1,5 @@
+$break-1000: 1000px;
+
 .footer {
     display: flex;
     justify-content: center;
@@ -8,6 +10,11 @@
     left: 0;
     bottom: 0;
     width: 100%;
+    @media screen and (max-width: $break-1000) {
+        width: 68em;
+        display: flex;
+        justify-content: center;
+    }
     :link {
         text-decoration: none;
         color: rgb(141, 140, 140);
