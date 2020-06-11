@@ -11,9 +11,7 @@ $break-1000: 1000px;
     bottom: 0;
     width: 100%;
     @media screen and (max-width: $break-1000) {
-        width: 68em;
-        display: flex;
-        justify-content: center;
+        max-width: 1000px;
     }
     :link {
         text-decoration: none;

@@ -1,3 +1,5 @@
+$break-1000: 1000px;
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -8,15 +10,29 @@ ul {
   flex-direction: column;
   justify-content: center;
   margin: 2em 0 0 0;
+  @media screen and (max-width: 1000px) {
+    margin: 2em 0 0 0;
+    width: 55em;
+  }
   .skillsTopRow {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    @media screen and (max-width: $break-1000) {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+    }
   }
   .skillsBottomRow {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    @media screen and (max-width: $break-1000) {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+    }
   }
 }
 
@@ -28,8 +44,17 @@ hr {
   display: flex;
   justify-content: center;
   margin: 3em 0 0 0;
-  li {
-    width: 500px;
-    margin: 0;
+  @media screen and (max-width: $break-1000) {
+    display: flex;
+    justify-content: center;
+  }
+}
+.skillSection {
+  @media screen and (max-width: $break-1000) {
+    width: 55em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
   }
 }

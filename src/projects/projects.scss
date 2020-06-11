@@ -9,7 +9,7 @@ $break-1000: 1000px;
     flex-direction: row;
     flex-wrap: wrap;
     @media screen and (max-width: 1000px) {
-        margin: 0;
-        width: 50.5em;
+        width: 50%;
+        margin: o auto 0 auto;
     }
 }

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+$break-1000: 1000px;
 
 .skillSection {
     display: flex;
@@ -11,6 +12,9 @@
     line-height: 2em;
     width: 11em;
     margin: .65em 3em 0 0;
+    @media screen and (max-width: $break-1000) {
+      margin: auto;
+    }
   }
 
   .list {
