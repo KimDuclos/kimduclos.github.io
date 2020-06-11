@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+$break-1000: 1000px;
+
 .headerBlock {
   display: flex;
   flex-direction: row;
@@ -7,18 +9,37 @@
   justify-content: space-evenly;
   border-bottom: 1px solid #e0e0e0;
   height: 10em;
+  @media screen and (max-width: $break-1000) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 14em;
+  }
   .titleBlock {
     width: 30em;
     margin: 2em 0 0 0;
+    @media screen and (max-width: $break-1000) {
+      width: 50em;
+      display: flex;
+      flex-direction: column;
+    }
     .name {
       font-size: 4em;
       font-family: "Roboto", sans-serif;
       color: #efc14b;
+      @media screen and (max-width: $break-1000) {
+        display: flex;
+        justify-content: center;
+      }
     }
     .subtitle {
       font-size: 1em;
       font-family: "Roboto", sans-serif;
       color: #7ba02d;
+      @media screen and (max-width: $break-1000) {
+        display: flex;
+        justify-content: center;
+      }
     }
   }
   .navBlock {
@@ -28,6 +49,10 @@
       display: flex;
       justify-content: space-evenly;
       margin: 4em 0 0 12em;
+      @media screen and (max-width:$break-1000) {
+        display: flex;
+        justify-content: space-around;
+      }
       :link {
         text-decoration: none;
         color: rgb(78, 74, 74);

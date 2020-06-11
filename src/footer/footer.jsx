@@ -5,8 +5,9 @@ const Footer = () => {
   return (
     <div className="footer">
       <p>
-        If you need a new website, branding package, or another digital project
-        please <a href="../contactForm/">CONTACT ME</a> today!
+        If you need a new website, branding package, or another digital project,
+        contact me 
+        <a href="../contactForm/"> HERE</a>!
       </p>
     </div>
   );

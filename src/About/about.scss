@@ -8,20 +8,20 @@
     justify-content: center;
     img {
       width: 70%;
-      margin: .75em auto 0 auto;
+      margin: 0.75em auto 0 auto;
     }
   }
   p {
-      width: 70%;
-      text-align: center;
-      margin: 1em auto 0 auto;
-  }
-  :link {
-    text-decoration: none;
-    color: #4d4a4a;
-    font-weight: bold;
-    :visited {
+    width: 70%;
+    text-align: center;
+    margin: 1em auto 0 auto;
+    :link {
+      text-decoration: none;
       color: #4d4a4a;
+      font-weight: bold;
+      :visited {
+        color: #4d4a4a;
+      }
     }
   }
 }
