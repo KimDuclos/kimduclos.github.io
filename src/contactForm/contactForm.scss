@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+$break-1000: 1000px;
 
 .allContactInfo {
   width: 55%;
@@ -6,11 +7,24 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  @media screen and (max-width: $break-1000) {
+    width: 100%;
+    flex-direction: column;
+  }
+  .allAboutInfo {
+    @media screen and (max-width: $break-1000) {
+      margin: 0 auto 5em auto;
+    }
+  }
 }
 
 .bottomSection {
   width: 70%;
   margin: 0 0 0 10%;
+  @media screen and (max-width: $break-1000) {
+    width: 90%;
+    margin: auto;
+  }
   h1 {
     color: #98C263;
     font-size: 1.75em;
