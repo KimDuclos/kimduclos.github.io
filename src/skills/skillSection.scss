@@ -12,9 +12,6 @@ $break-1000: 1000px;
     line-height: 2em;
     width: 11em;
     margin: .65em 3em 0 0;
-    @media screen and (max-width: $break-1000) {
-      margin: auto;
-    }
   }
 
   .list {

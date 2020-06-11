@@ -11,8 +11,7 @@ ul {
   justify-content: center;
   margin: 2em 0 0 0;
   @media screen and (max-width: 1000px) {
-    margin: 2em 0 0 0;
-    width: 55em;
+    width: 100%;
   }
   .skillsTopRow {
     display: flex;
@@ -44,17 +43,4 @@ hr {
   display: flex;
   justify-content: center;
   margin: 3em 0 0 0;
-  @media screen and (max-width: $break-1000) {
-    display: flex;
-    justify-content: center;
-  }
-}
-.skillSection {
-  @media screen and (max-width: $break-1000) {
-    width: 55em;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-  }
 }
