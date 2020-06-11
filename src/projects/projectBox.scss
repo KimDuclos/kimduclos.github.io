@@ -1,13 +1,26 @@
-.boxes {  
+$break-1000: 1000px; 
+
+.boxes {
+  @media screen and (max-width: 1000px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }  
   .projectBox {
     height: 20em;
     width: 30em;
     margin: 3em 6em 2em 6em;
     background-color: rgb(141, 140, 140);
+    @media screen and (max-width: 1000px) {
+      margin: 3em 0 0 0;
+    }
   }
   .caption {
     height: 1.5em;
     width: 30em;
     margin: 0 7em 2em 7em;;
+    @media screen and (max-width: 1000px) {
+      margin: 2em 0 2em 0;
+    }
   }
 }
