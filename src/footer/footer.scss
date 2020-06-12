@@ -1,4 +1,5 @@
 $break-1000: 1000px;
+$break-mobile: 411px;
 
 .footer {
     display: flex;
@@ -12,6 +13,9 @@ $break-1000: 1000px;
     width: 100%;
     @media screen and (max-width: $break-1000) {
         max-width: 1000px;
+    }
+    @media screen and (max-width: $break-mobile) {
+        text-align: center;
     }
     :link {
         text-decoration: none;
