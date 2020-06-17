@@ -1,9 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 $break-1000: 1000px;
+$break-mobile: 411px;
 
 .skillSection {
     display: flex;
     flex-direction: row;
+    @media screen and (max-width: $break-mobile) {
+      
+    }
   .title {
     color: #7ba02d;
     font-family: "Roboto", sans-serif;
