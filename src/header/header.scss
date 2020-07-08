@@ -6,8 +6,7 @@ $break-800: 800px;
 .headerBlock {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   border-bottom: 1px solid #e0e0e0;
   height: 10em;
   @media screen and (max-width: $break-1000) {
@@ -18,8 +17,9 @@ $break-800: 800px;
     flex-direction: column;
   }
   .titleBlock {
-    width: 30em;
-    margin: 2em 0 0 0;
+    width: auto;
+    height: auto;
+    margin: 1.5em 0 0 0;
     @media screen and (max-width: $break-800) {
       width: 100%;
     }
@@ -46,16 +46,18 @@ $break-800: 800px;
   }
 }
 .navBlock {
+  width: auto;
+  height: auto;
   @media screen and (max-width: $break-800) {
     display: flex;
     justify-content: center;
   }
   .navbar {
-    height: 1em;
-    width: 25em;
+    height: auto;
+    width: 20em;
+    margin: 4em 0 0 0;
     display: flex;
-    justify-content: space-evenly;
-    margin: 4em 0 0 12em;
+    justify-content: space-around;
     @media screen and (max-width: $break-800) {
       margin: 2em 0 2em 0;
     }
