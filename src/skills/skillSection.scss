@@ -6,7 +6,9 @@ $break-mobile: 411px;
     display: flex;
     flex-direction: row;
     @media screen and (max-width: $break-mobile) {
-      
+      width: 95%;
+      display: flex;
+      flex-direction: column;
     }
   .title {
     color: #7ba02d;
@@ -16,6 +18,10 @@ $break-mobile: 411px;
     line-height: 2em;
     width: 11em;
     margin: .65em 3em 0 0;
+    @media screen and (max-width: $break-mobile) {
+      margin: 1em 0 0 0;
+      width: auto;
+    }
   }
 
   .list {
@@ -23,5 +29,9 @@ $break-mobile: 411px;
     line-height: 2em;
     width: 11em;
     margin: 0 3em 0 0;
+    @media screen and (max-width: $break-mobile) {
+      margin: 0;
+      width: auto;
+    }
   }
 }

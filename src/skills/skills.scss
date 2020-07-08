@@ -11,11 +11,14 @@ ul {
   flex-direction: column;
   justify-content: center;
   margin: 2em 0 0 0;
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: $break-1000) {
     width: 100%;
   }
   @media screen and (max-width: $break-mobile) {
-    margin: 0;
+    margin: 0 auto 0 auto;
+    width: 85%;
+    align-items: center;
+    text-align: center;
   }
   .skillsTopRow {
     display: flex;
@@ -28,6 +31,7 @@ ul {
     }
     @media screen and (max-width: $break-mobile) {
       margin: 0;
+      align-items: center;
     }
   }
   .skillsBottomRow {
@@ -54,6 +58,8 @@ hr {
   justify-content: center;
   margin: 3em 0 0 0;
   @media screen and (max-width: $break-mobile) {
-    margin: 0;
+    margin: 0 auto 0 auto;
+    width: 85%;
+    text-align: center;
   }
 }
