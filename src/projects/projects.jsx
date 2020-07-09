@@ -10,19 +10,20 @@ const Projects = () => {
         <ProjectBox 
             image="/images/flex-together.PNG" 
             alt="Flex Together Image"
-            caption="LiveSafe warns homebuyers of potential natural disasters that could affect safety and insurance rates." 
+            caption="FlexTogether pairs seniors with workout partners based on schedule availability of both parties." 
             link="https://flex-together-max.netlify.com/"
         />
         <ProjectBox 
             image="/images/lunchr.PNG" 
             alt="Lunchr Image"
-            caption="FlexTogether pairs seniors with workout partners based on schedule availability of both parties." 
+            caption="Lunchr connects donars with schools requesting monetary funding for student lunches." 
             link="https://luncher-team.github.io/luncher-app-frank-UI/"
         />
         <ProjectBox 
             image="/images/live-safe.PNG" 
             alt="Live SafeImage"
-            caption="Lunchr connects donars with schools requesting monetary funding for student lunches." 
+            caption="LiveSafe warns homebuyers of potential natural disasters that could affect safety and insurance rates." 
+
             link="https://livesafe.services/"
         />
         <ProjectBox 
