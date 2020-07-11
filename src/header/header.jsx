@@ -7,7 +7,7 @@ import ContactForm from '../ContactForm/ContactForm.jsx';
 
 const Header = () => {
 	return (
-		<Router>
+		<Router basename={process.env.PUBLIC_URL}>
 			<div className="headerBlock">
 				<a href="https://kimduclos.github.io">
 					<div className="titleBlock">
@@ -25,9 +25,9 @@ const Header = () => {
 			</div>
 			<div className="projectSection">
 				<Switch>
-					<Route exact path={process.env.PUBLIC_URL + "/"} component={Projects}></Route>
-					<Route exact path={process.env.PUBLIC_URL + "/Skills"} component={Skills}></Route>
-					<Route exact path={process.env.PUBLIC_URL + "/ContactForm"} component={ContactForm}></Route>
+					<Route path="/Skills" component={Skills}></Route>
+					<Route path="/ContactForm" component={ContactForm}></Route>
+					<Route exact path="/" component={Projects}></Route>
 				</Switch>
 			</div>
 		</Router>
