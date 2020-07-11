@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import About from '../About/about.jsx';
+import About from '../about/about.jsx';
 import './contactForm.scss';
 import Footer from '../footer/footer.jsx';
 
