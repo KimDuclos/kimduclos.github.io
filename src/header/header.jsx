@@ -25,9 +25,9 @@ const Header = () => {
 			</div>
 			<div className="projectSection">
 				<Switch>
-					<Route Route path={process.env.PUBLIC_URL + "/"} component={Projects} />
-					<Route Route path={process.env.PUBLIC_URL + "/skills"} component={Skills} />
-					<Route Route path={process.env.PUBLIC_URL + "/contactForm"} component={ContactForm} />
+					<Route path={process.env.PUBLIC_URL + "/"} component={Projects} />
+					<Route path={process.env.PUBLIC_URL + "/skills"} component={Skills} />
+					<Route path={process.env.PUBLIC_URL + "/contactForm"} component={ContactForm} />
 				</Switch>
 			</div>
 		</Router>
