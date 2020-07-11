@@ -1,8 +1,8 @@
-import React from 'react';
-import axios from 'axios';
-import About from '../about/about.jsx';
-import './contactForm.scss';
-import Footer from '../footer/footer.jsx';
+import React from './node_modules/react';
+import axios from './node_modules/axios';
+import About from '../About/About.jsx';
+import './ContactForm.scss';
+import Footer from '../Footer/Footer.jsx';
 
 class ContactForm extends React.Component {
 	constructor(props) {

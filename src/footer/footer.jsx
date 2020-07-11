@@ -1,5 +1,5 @@
-import React from "react";
-import "./footer.scss";
+import React from "./node_modules/react";
+import "./Footer.scss";
 
 const Footer = () => {
   return (
@@ -7,7 +7,7 @@ const Footer = () => {
       <p>
         If you need a new website, branding package, or another digital project,
         contact me 
-        <a href="../contactForm/"> HERE</a>!
+        <a href="../ContactForm/"> HERE</a>!
       </p>
     </div>
   );

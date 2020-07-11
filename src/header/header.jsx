@@ -1,9 +1,9 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
-import './header.scss';
-import Projects from '../projects/projects';
-import Skills from '../skills/skills';
-import ContactForm from '../contactForm/contactForm.jsx';
+import React from './node_modules/react';
+import { BrowserRouter as Router, Route, Link, Switch } from './node_modules/react-router-dom';
+import './Header.scss';
+import Projects from '../Projects/Projects.jsx';
+import Skills from '../Skills/Skills.jsx';
+import ContactForm from '../ContactForm/ContactForm.jsx';
 
 const Header = () => {
 	return (
@@ -18,16 +18,16 @@ const Header = () => {
 				<div className="navBlock">
 					<nav className="navbar">
 						<Link to="/">Projects</Link>
-						<Link to="/skills">Skills</Link>
-						<Link to="/contactForm">Contact</Link>
+						<Link to="/Skills">Skills</Link>
+						<Link to="/ContactForm">Contact</Link>
 					</nav>
 				</div>
 			</div>
 			<div className="projectSection">
 				<Switch>
 					<Route exact path={process.env.PUBLIC_URL + "/"} component={Projects}></Route>
-					<Route exact path={process.env.PUBLIC_URL + "/skills"} component={Skills}></Route>
-					<Route exact path={process.env.PUBLIC_URL + "/contactForm"} component={ContactForm}></Route>
+					<Route exact path={process.env.PUBLIC_URL + "/Skills"} component={Skills}></Route>
+					<Route exact path={process.env.PUBLIC_URL + "/ContactForm"} component={ContactForm}></Route>
 				</Switch>
 			</div>
 		</Router>

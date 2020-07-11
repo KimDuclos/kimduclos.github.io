@@ -1,5 +1,5 @@
-import React from "react";
-import "./skillSection.scss";
+import React from "./node_modules/react";
+import "./SkillSection.scss";
 
 const SkillSection = (props) => {
   return (

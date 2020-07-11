@@ -1,7 +1,7 @@
-import React from "react";
-import "./projects.scss";
-import ProjectBox from "./projectBox.jsx";
-import Footer from "../footer/footer.jsx";
+import React from "./node_modules/react";
+import "./Projects.scss";
+import ProjectBox from "./ProjectBox.jsx";
+import Footer from "../Footer/Footer.jsx";
 
 const Projects = () => {
   return (
