@@ -9,7 +9,7 @@ const Header = () => {
 	return (
 		<Router>
 			<div className="headerBlock">
-				<a href="https://github.kimduclos.io">
+				<a href="https://kimduclos.github.io">
 					<div className="titleBlock">
 						<div className="name">Kim Duclos</div>
 						<div className="subtitle">Web Development & Design</div>
