@@ -16,6 +16,9 @@ $break-800: 800px;
     display: flex;
     flex-direction: column;
   }
+  :link {
+    text-decoration: none;
+  }
   .titleBlock {
     width: auto;
     height: auto;
