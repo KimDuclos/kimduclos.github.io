@@ -26,8 +26,8 @@ const Header = () => {
 			<div className="projectSection">
 				<Switch>
 					<Route exact path="/" component={Projects} />
-					<Route path="/skills" component={Skills} />
-					<Route path="/contactForm" component={ContactForm} />
+					<Route exact path="/skills" component={Skills} />
+					<Route exact path="/contactForm" component={ContactForm} />
 				</Switch>
 			</div>
 		</Router>
