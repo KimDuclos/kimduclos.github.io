@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Link, Switch } from "react-router-dom";
 import './Header.scss';
 import Projects from '../Projects/Projects.jsx';
 import Skills from '../Skills/Skills.jsx';
@@ -7,7 +7,7 @@ import ContactForm from '../ContactForm/ContactForm.jsx';
 
 const Header = () => {
 	return (
-		<Router basename={process.env.PUBLIC_URL}>
+		<Router basename="/">
 			<div className="headerBlock">
 				<a href="https://kimduclos.github.io">
 					<div className="titleBlock">
@@ -25,9 +25,9 @@ const Header = () => {
 			</div>
 			<div className="projectSection">
 				<Switch>
+					<Route exact path="/" component={Projects}></Route>
 					<Route path="/Skills" component={Skills}></Route>
 					<Route path="/ContactForm" component={ContactForm}></Route>
-					<Route exact path="/" component={Projects}></Route>
 				</Switch>
 			</div>
 		</Router>
