@@ -1,4 +1,4 @@
-import React from './node_modules/react';
+import React from "react";
 import './Skills.scss';
 import SkillSection from './SkillSection.jsx';
 import Footer from '../Footer/Footer.jsx';

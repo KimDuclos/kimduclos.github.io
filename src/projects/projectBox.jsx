@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable react/jsx-no-comment-textnodes */
-import React from './node_modules/react';
+import React from 'react';
 import './ProjectBox.scss';
 
 const ProjectBox = props => {
