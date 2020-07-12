@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./footer.scss";
 
 const Footer = () => {
@@ -7,7 +8,7 @@ const Footer = () => {
       <p>
         If you need a new website, branding package, or another digital project,
         contact me 
-        <a href="../ContactForm/"> HERE</a>!
+        <Link to="./ContactForm"> HERE</Link>!
       </p>
     </div>
   );
