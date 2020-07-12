@@ -11,7 +11,7 @@ const Projects = () => {
             image="/images/flex-together.png" 
             alt="Flex Together Image"
             caption="FlexTogether pairs seniors with workout partners based on schedule availability of both parties." 
-            link="https://flex-together-max.netlify.com/"
+            link="https://flextogether.netlify.com/"
         />
         <ProjectBox 
             image="/images/lunchr.png" 
