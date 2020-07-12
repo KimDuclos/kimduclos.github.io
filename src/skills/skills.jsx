@@ -1,7 +1,7 @@
 import React from "react";
-import './Skills.scss';
-import SkillSection from './SkillSection.jsx';
-import Footer from '../Footer/Footer.jsx';
+import './skills.scss';
+import SkillSection from './skillSection.jsx';
+import Footer from '../footer/footer.jsx';
 
 const SkillsList = props => {
 	return (

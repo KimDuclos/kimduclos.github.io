@@ -1,9 +1,9 @@
 import React from "react";
 import { HashRouter as Router, Route, Link, Switch } from "react-router-dom";
-import './Header.scss';
-import Projects from '../Projects/Projects.jsx';
-import Skills from '../Skills/Skills.jsx';
-import ContactForm from '../ContactForm/ContactForm.jsx';
+import './header.scss';
+import Projects from '../projects/projects.jsx';
+import Skills from '../skills/skills.jsx';
+import ContactForm from '../contactForm/contactForm.jsx';
 
 const Header = () => {
 	return (
