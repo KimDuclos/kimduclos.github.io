@@ -16,7 +16,7 @@ const Projects = () => {
         <ProjectBox 
             image="/images/lunchr.png" 
             alt="Lunchr Image"
-            caption="Lunchr connects donors with schools requesting monetary funding for student lunches." 
+            caption="Lunchr is an app that can be used to donors with schools requesting monetary funding for student lunches." 
             link="https://luncher-team.github.io/luncher-app-frank-UI/"
         />
         <ProjectBox 
