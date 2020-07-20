@@ -10,13 +10,13 @@ const Projects = () => {
         <ProjectBox 
             image="/images/flex-together.png" 
             alt="Flex Together Image"
-            caption="FlexTogether pairs seniors with workout partners based on schedule availability of both parties." 
+            caption="FlexTogether is an app prototype that pairs seniors with workout partners based on schedule availability of both parties." 
             link="https://flextogether.netlify.com/"
         />
         <ProjectBox 
             image="/images/lunchr.png" 
             alt="Lunchr Image"
-            caption="Lunchr is an app that can be used to donors with schools requesting monetary funding for student lunches." 
+            caption="Lunchr is an app prototype that can be used to donors with schools requesting monetary funding for student lunches." 
             link="https://luncher-team.github.io/luncher-app-frank-UI/"
         />
         <ProjectBox 
