@@ -16,7 +16,7 @@ const Projects = () => {
         <ProjectBox 
             image="/images/live-safe.png" 
             alt="Live SafeImage"
-            caption="LiveSafe warns homebuyers of potential natural disasters that could affect safety and insurance rates." 
+            caption="LiveSafe warns homebuyers of potential natural disasters that could affect safety and insurance rates. This was created as a collaboration with Data Scientists" 
 
             link="https://livesafe.netlify.app/"
         />
