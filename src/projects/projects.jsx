@@ -14,17 +14,17 @@ const Projects = () => {
             link="https://flextogether.netlify.com/"
         />
         <ProjectBox 
-            image="/images/lunchr.png" 
-            alt="Lunchr Image"
-            caption="Lunchr is an app prototype that can be used to donors with schools requesting monetary funding for student lunches." 
-            link="https://luncher-team.github.io/luncher-app-frank-UI/"
-        />
-        <ProjectBox 
             image="/images/live-safe.png" 
             alt="Live SafeImage"
             caption="LiveSafe warns homebuyers of potential natural disasters that could affect safety and insurance rates." 
 
             link="https://livesafe.netlify.app/"
+        />
+        <ProjectBox 
+            image="/images/lunchr.png" 
+            alt="Lunchr Image"
+            caption="Lunchr is an app prototype that can be used to donors with schools requesting monetary funding for student lunches." 
+            link="https://luncher-team.github.io/luncher-app-frank-UI/"
         />
         <ProjectBox 
             image="/images/simpson-says.png" 
